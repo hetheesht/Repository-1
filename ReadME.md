@@ -1,4 +1,4 @@
-## Front-end Technologies
+### Front-end Technologies
 
 - HTML
 - CSS
@@ -7,7 +7,7 @@
 - Angular framework
 - ReactJS
 
-## Backend Technologies
+### Backend Technologies
 
 - Node.js
        - express.js
@@ -19,7 +19,7 @@
 - Java
 - Python
 
-## Databases
+### Databases
 
 - MongoDb
 - Mysql
@@ -36,7 +36,7 @@
                       - Github,Bitbucket
 
 
- ### Git
+### Git
 
  - git init
  - git add filename
@@ -46,7 +46,7 @@
  - Do git configurations(set user.name and user.gmail)
  - commit data with commit message
 
- ### HTML5
+### HTML5
 
  - Hyper Text Markup Language
  - Latest version of HTML is html5
@@ -80,3 +80,6 @@
         - legend
         - sup
         - sub
+
+##### Reference Links 
+   - flaticon.com
