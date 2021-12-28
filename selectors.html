@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: CSS Selectors ::</title>
+</head>
+<style>
+    *{
+        border-radius: 5px;
+       
+    }
+    div p{
+        background-color: red;
+        color: white;
+    }
+
+    div > p{
+        background-color: yellowgreen;
+        color: seagreen;
+    }
+    section+p{
+        font-size: 50px;
+    }
+    div+h5{
+        font-size: 100px;
+    }
+    div~p{
+        background-color: violet;
+        color: whitesmoke;
+    }
+    p::first-letter{
+        font-size: 70px;
+    }
+    p::first-line{
+        background-color: purple;
+    }
+</style>
+<body>
+    <div>
+        <p>Paragraph1</p>
+        <p>Paragraph2</p>
+        <div>
+            <p>Paragraph3</p>
+        </div>
+        <section>
+            <p>Paragraph4</p>
+            <p>Paragraph4</p>
+            <p>Paragraph4</p>
+        </section>
+        <p>Paragraph5</p>
+        <p>Paragraph6</p>
+    </div>
+    <h5>Heading5</h5>
+    <span>Heading</span>        
+</body>
+</html>
