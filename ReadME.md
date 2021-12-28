@@ -30,10 +30,10 @@
 
 
 + Virtual Control system(VCS) or Source code management(SCM)
-                   - Distributed VCS
- 			    - Ex:Git,Mercurial
-                   - Remote(Central) VCS
-                      - Github,Bitbucket
+     - Distributed VCS
+        - Ex:Git,Mercurial
+     - Remote(Central) VCS
+        - Github,Bitbucket
 
 
 ### Git
@@ -148,3 +148,38 @@ selector{
     - padding :10px 30px 4px 50px(top,right,bottom,left)
 + width
 - 1rem:16px
+
+
+  
+
++ display
+    - none
+    - inline
+    - block
+    - inline-block
++ position
+    - static
+    - relative
+    - absolute
+    - fixed
+    - sticky
++ align-content
++ align-items
++ align-self
+
+### Responsive Web Design
+### Flex-box
+
+- display
+    - flex
+        - flex-wrap
+        - justify-content
+        - flex-direction
+        - flex-flow
+
+Task 2:
+=====
+
+   - Index.html
+   - Login.html
+   - Register
