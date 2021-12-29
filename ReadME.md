@@ -81,10 +81,7 @@
         - sup
         - sub
 
-##### Reference Links 
-   - [flaticon]https://www.flaticon.com/authors/flat-icons
-   - [colorcodes]https://htmlcolorcodes.com/
-   - [WebAim(checkscontrast)]https://webaim.org/resources/contrastchecker/
+
 ### Points
 - The data in <body>....</body> will be displayed for the user
 - Place holder is used to represent the hint in the bar
@@ -124,7 +121,6 @@ selector{
     - Grouping selector (,)
     - Class selector(.)
     - Id selector(#)
-
  + Combinators
     + Descendant selector( )
         - Select two selector and apply styles   
@@ -150,7 +146,7 @@ selector{
 - 1rem:16px
 
 
-  
+
 
 + display
     - none
@@ -182,4 +178,90 @@ Task 2:
 
    - Index.html
    - Login.html
-   - Register
+   - Register.html
+
+### Media Queries
+
+   - Extra small devices(Mobiles)
+      - max-width:600px(break point)
+   - Small devices(Large mobile)
+      - min-width:600px
+      - max-width:767px
+   - Medium devices(small laptops)
+      - min-width:768px
+   - large devices(Large laptops or desktops)
+      - min-width:992px
+   - Extra Large Devices(LED screens)
+      - min-width:1200px
+
+   ...
+   Syntax for media  queries
+
+   @media only screen (min-width:320px) and (max-width:500px){
+       CSS Code
+   }
+   ...
+
+### Bootstrap 4.6
+
+   - It is a CSS framework
+ Task 3:
+   ===
+   - Navbar with responsive
+
+- module(collection of functions and claases)
+- package(collection of modules)
+- library(collection of packages)
+- framework(collection of libraries)
++ module --> Package --> Library --> Framework
+
++ Types of Modes
+     - offline
+     - online
+          - CDN links
+
++ background-color - bg 
++ text-white(For color of text)
++ Mragin in Bootstrap (m-* (0-5))
+   - 0 --> 0rem
+   - 1 --> 0.25rem (4px)
+   - 2 --> 0.5rem(8px)
+   - 3 --> 1rem(16px)
+   - 4 --> 1.5rem(24px)
+   - 5 --> 3rem(45px)
+   - m(margin in all directions)
+   - ml-5 (margin left)
+   - mt (margin-top)
+   - mb (margin bottom)
+   - mr (margin right)
+   
++ Padding(padding-left --> p1-5)
++ colors
+     - primary
+     - secondary
+     - info
+     - success
+     - warning
+     - danger
+     - light
+     - dark
+     - white
+
+ + We can use color classes for
+     - Buttons btn btn-primary)
+     - text (text-white)
+     - background (bg-secondary)  
+     - alerts (alert alert-primary)  
+
+ + Grid System
+     -  col-sm-12
+     - sm (small devices)
+     - md (medium devices)
+     - lg (large devices)
+     - xl (Extra large devices)
+  ##### Reference Links 
+   - [flaticon]https://www.flaticon.com/authors/flat-icons
+   - [colorcodes]https://htmlcolorcodes.com/
+   - [WebAim(checkscontrast)]https://webaim.org/resources/contrastchecker/ 
+
+
