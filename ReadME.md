@@ -81,7 +81,6 @@
         - sup
         - sub
 
-
 ### Points
 - The data in <body>....</body> will be displayed for the user
 - Place holder is used to represent the hint in the bar
@@ -259,9 +258,81 @@ Task 2:
      - md (medium devices)
      - lg (large devices)
      - xl (Extra large devices)
+ + Modal
+ + Table
+
+ ### Javascript    
+
+  + In 1995 by "Brenden Eich" introduced JavaScript (ES-262)
+  - JavaScript is loosely touple and dynamic language
+  - It is a text based programming language and we can run in client side and in server slide(Node.js) for dynamic web applications
+  - ECMA-Script (European country Manufacture Association) (ES-6)
+       - let & const
+       - var keyword(to create any variable)
+       - map(for itertion)
+       - arrow function
+       - classes
+       - spread opeartor
+       - rest operator
+   + Datatypes
+       - Number
+       - BigInt(2^53-1)
+       - String
+       - Boolean
+       - Undefine
+       - null
+       - object
+       - Array
+   + variables      
+       - var,let & const
+       - Scope
+           - function level --> var
+           - block level --> let & const
+       - Redefine --> var,let
+       - Redeclare --> var
+    + "typeof()"
+    + Object
+    - It is pair of key and values
+    - Entity that has state and behaviour
+    ...
+    
+    {
+      name:Hetheesh
+    }
+    ...
+    + Arrays
+
+    ### Alerts
+
+    + To generate notifications
+         - alert(alert("registration is completed successfully"))
+         - prompt(to take input from user)(let number1=prompt("Enter username"))
+         - confirm(confirm("Are you sure you want to exit?"))
+    + console statements
+         - 'console.log()'
+         - 'console.info()'
+         - 'console.warn()'
+         - 'console.error()'     
+    + spread operetor
+       - To change array elements from one array to another(Ex:Swap)
+
+    ...
+
+      ...variableName
+    ...       
+    + Rest parameter
+      - To handle functions parameters
+
+    ...
+       ...parameter
+    ...     
+
+    + Destructuring Array
+    + Destructuring Object
   ##### Reference Links 
-   - [flaticon]https://www.flaticon.com/authors/flat-icons
-   - [colorcodes]https://htmlcolorcodes.com/
-   - [WebAim(checkscontrast)]https://webaim.org/resources/contrastchecker/ 
+   - [flaticon](https://www.flaticon.com/authors/flat-icons)
+   - [SVG Icons](https://freesvg.org)
+   - [colorcodes](https://htmlcolorcodes.com/)
+   - [WebAim(checkscontrast)](https://webaim.org/resources/contrastchecker/ )
 
 
