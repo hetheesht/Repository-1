@@ -302,34 +302,99 @@ Task 2:
     ...
     + Arrays
 
-    ### Alerts
+ ### Alerts
 
     + To generate notifications
          - alert(alert("registration is completed successfully"))
          - prompt(to take input from user)(let number1=prompt("Enter username"))
          - confirm(confirm("Are you sure you want to exit?"))
-    + console statements
-         - 'console.log()'
-         - 'console.info()'
-         - 'console.warn()'
-         - 'console.error()'     
-    + spread operetor
-       - To change array elements from one array to another(Ex:Swap)
++ console statements
+     - `console.log()`
+     - `console.info()`
+     - `console.warn()`
+     - `console.error()`     
++ spread operetor
+    - To change array elements from one array to another(Ex:Swap)
 
     ...
 
       ...variableName
     ...       
-    + Rest parameter
-      - To handle functions parameters
+ + Rest parameter
+   - To handle functions parameters
 
     ...
        ...parameter
     ...     
 
-    + Destructuring Array
-    + Destructuring Object
-  ##### Reference Links 
++ Destructuring Array & Object
+
+    
++ Functions
+...
+
+function demo(x,y){
+    return x+y
+}
+demo()
+...
+
+- Anonymous function
+...
+let demo=function(x,y)
+{
+    return x+y
+}
+...
+- Arrow function
+...
+let demo=(x,y) => {
+    return x*y
+}
+console.log(demo(3,4))
+
++ for-in
+   - To get index values of an array
++ for-of
+   - To get elements of an array
+ + forEach() --> (ES-5) 
+ + map() --> (ES-6)  
+
+####  DOM
+     
+   - Document Object Model
+   - Document
+   - History
+   - window
+   - navigator(To store data offline)
++ DOM Methods   
+   - `getElementById`
+   - `getElementsByClassName()`
+   - `querySelector`
+   - `innertext`
+   - `textContent`
+   - `append`
+   - `appendChild`
+   - `innerHTML`
+   - `setAttribute()`
+   - `classList`
+   - `style`
+   - `src`
+
+##### JSON
++ JavaScript Object Notation
+    - To exchange information between application and server  
+
+...
+{
+    "name":"kalyan",
+    "salary":"6.5LPA",
+    "Designation":"MERN Developer",
+    "mobile":9578478974
+}
+...
++ Ajax call or Promises (fetch API) or axios
+##### Reference Links 
    - [flaticon](https://www.flaticon.com/authors/flat-icons)
    - [SVG Icons](https://freesvg.org)
    - [colorcodes](https://htmlcolorcodes.com/)

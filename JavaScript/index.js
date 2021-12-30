@@ -71,14 +71,87 @@
  
 // Desrtucting of object
 
-let employee={
-        uname:"het",
-        designation:"Junior developer",
-        salary:"4LPA",
-        mobile:6756467978
-    }
+// let employee={
+//         uname:"het",
+//         designation:"Junior developer",
+//         salary:"4LPA",
+//         mobile:6756467978
+//     }
 
-let {uname,designation,...remainList}=employee;
-console.log(uname);
-console.log(designation);
-console.log(remainList)
+// let {uname,designation,...remainList}=employee;
+// console.log(uname);
+// console.log(designation);
+// console.log(remainList)
+
+// Functions
+
+// Anonymous function
+
+// let demo=function(x,y){
+//     return x+y
+// }
+
+// (function(x,y){
+//     return x*y
+// }) ()
+// console.log(demo(3,4))
+
+// (function(x=4,y=6){
+//     return console.log(x+y)
+// }) ()
+
+// setTimeout(function(){
+//   console.log("welcome")
+// },3000)
+  
+// console.log(demo(3,4))
+
+// Arrow function
+
+// let demo =(x,y) => {
+//     return x*y
+
+// }
+// console.log(demo(3,4))
+
+let employee=["dhanush","Pavan","Harika","vignesh","gh"]
+
+// for(let i=0;i<employee.length;i++){
+//     console.log(employee[i])
+// }
+// for-in
+// for(let i in employee){
+//     console.log(i)
+// }
+
+// for-of
+
+// for(let i of employee){
+//     console.log(i)
+// }
+
+// forEach()
+// employee.forEach(function(element){
+//      console.log(element+" OK")
+//  })
+
+// console.log(result)
+
+// map
+// let result=employee.map(function(element,index){
+//     return element+"k"+index
+// })
+// console.log(employee)
+// console.log(result)   
+
+// Map function in arrow function
+// let result=employee.map((element,index)=>{
+//         return element+"k"+index
+//     })
+     // console.log(employee)
+//     console.log(result)  
+ 
+// Using arrow function
+ employee.forEach((element)=>{
+    console.log(element+" OK")
+ })   
