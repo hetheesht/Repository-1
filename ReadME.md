@@ -286,14 +286,14 @@ Task 2:
    + variables      
        - var,let & const
        - Scope
-           - function level --> var
-           - block level --> let & const
+       - function level --> var
+       - block level --> let & const
        - Redefine --> var,let
        - Redeclare --> var
-    + "typeof()"
+    + `typeof()`
     + Object
-    - It is pair of key and values
-    - Entity that has state and behaviour
+       - It is pair of key and values
+       - Entity that has state and behaviour
     ...
     
     {
@@ -394,10 +394,47 @@ console.log(demo(3,4))
 }
 ...
 + Ajax call or Promises (fetch API) or axios
+
+#### ReactJS
+   - To implement user interface
+#### ReactJS Features
++ It is a library
++ It follows component based architecture
+    - Functional Component
+    - Class Component
+    - Pure Component
+    - Higher Order Component 
++ It provides Virtual DOM
++ Unidirectional data flow
++ We can implement Single Page Applications
+
++ Project Environment setup
+      - [DownloadVisualStudioCode]
+      - [DownloadNodeJS](https://nodejs.org/en/download/)
+      - Install nodejs and check versions of `node` and `npm`
+          - `node -v`
+          - `npam -v`
+      - `webpack` and `babel`
+      - ` create react-app`
+          - `npm install create-react app`
+          - ` create-react-app projectname`
+      -  `npx create-react-app appaname`  
++ Index.html
++ index.js
+   + IndexPage
+     - nav.js
+     - body.js
+     - footer.js
+   + Home.js
+     - nav
+     - body
+     - gooter
+   + Login.js
+   + Register
+   + About
+   + contact            
 ##### Reference Links 
    - [flaticon](https://www.flaticon.com/authors/flat-icons)
    - [SVG Icons](https://freesvg.org)
    - [colorcodes](https://htmlcolorcodes.com/)
-   - [WebAim(checkscontrast)](https://webaim.org/resources/contrastchecker/ )
-
-
+   - [WebAim(checkscontrast)](https://webaim.org/resources/contrastchecker/) 
