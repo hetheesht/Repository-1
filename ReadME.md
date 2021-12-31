@@ -82,7 +82,7 @@
         - sub
 
 ### Points
-- The data in <body>....</body> will be displayed for the user
+- The data in body will be displayed for the user
 - Place holder is used to represent the hint in the bar
 Task :
 =====
